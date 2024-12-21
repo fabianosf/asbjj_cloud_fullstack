@@ -1,4 +1,4 @@
-
+/*
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
@@ -11,9 +11,10 @@ export default defineConfig({
            // Porta configurada para o frontend
   }
 })
+  */
 
 
-/*
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -31,4 +32,3 @@ export default defineConfig({
   origin: "http://0.0.0.0:3000",
  },
 });
-*/
