@@ -6,9 +6,9 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: true,  // Permite o acesso de qualquer endereço IP
+    host: "0.0.0.0:3000",  // Permite o acesso de qualquer endereço IP
     port: 3000,
-    origin: "http://0.0.0.0:3000"       // Porta configurada para o frontend
+           // Porta configurada para o frontend
   }
 })
 
