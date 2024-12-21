@@ -1,4 +1,4 @@
-/*
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
@@ -6,11 +6,14 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: '0.0.0.0',  // Permite o acesso de qualquer endereço IP
-    port: 5173,       // Porta configurada para o frontend
+    host: true,  // Permite o acesso de qualquer endereço IP
+    port: 3000,
+    origin: "http://0.0.0.0:3000"       // Porta configurada para o frontend
   }
 })
-*/
+
+
+/*
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -28,3 +31,4 @@ export default defineConfig({
   origin: "http://0.0.0.0:3000",
  },
 });
+*/
